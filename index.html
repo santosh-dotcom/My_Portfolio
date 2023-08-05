@@ -177,6 +177,77 @@
       text-align: center;
       }
 
+      /* //Mobile Responsive design */
+
+      @media screen and (max-width: 450px){
+        body{
+          /* background-color:  red; */
+        }
+
+        .box{
+          flex-direction: column;
+        }
+
+        .secondSection .vertical{
+          height: unset;
+        }
+
+        .vertical-title .vertical-desc{
+          left: 45px;
+        }
+
+        .secondSection .box{
+          width: 50vw;
+        }
+
+        nav{
+          flex-direction: column;
+        }
+
+        footer{
+          /* display: none; */
+        }
+
+        .firstSection{
+          flex-direction: column-reverse;
+        }
+
+        .leftSection{
+          width: 100% !important;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;   
+          align-items: center;      
+        }
+
+        .rightSection{
+          width: 721px !important;
+          display: flex;
+          justify-content: center;
+        }
+
+        .rightSection img{
+          width: 45vw;
+          margin-bottom: 73px;
+        }
+
+        .secondSection{          
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          height: 144vh;
+        }      
+        
+        body{
+          min-width: fit-content;
+        }
+
+        .image-top{
+          top: 130px;
+        }
+        
+      }
+
     </style>
   </head>
   <body>
@@ -280,7 +351,7 @@
     <!-- Setup and start animation! -->
     <script>
       var typed = new Typed("#element", {
-        strings: ["Web Developer", "PPC Expert", "Website tracking"],
+        strings: ["Web Developer", "PPC Expert", "Website Designer"],
         typeSpeed: 50,
       });
     </script>
